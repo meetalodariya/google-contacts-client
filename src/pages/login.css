@@ -1,0 +1,97 @@
+/* Contacts_App_SignIn */
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url("../assets/fonts/Poppins-Regular.ttf") format('woff');
+}
+
+.background-login {
+  background: #EFF7F9 url('../assets/images/bg-login-shapes.svg');
+  min-width: 100% !important;
+  min-height: 100% !important;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+.login-card {
+  width: 483px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(5, 62, 209, 0.19);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.google-logo {
+  background: url('../assets/images/google-logo.png');
+  background-size: 100% 100%;
+  position: relative;
+  width: 36px;
+  background-repeat: no-repeat;
+  height: 36px;
+  display: inline-block;
+
+}
+
+.login-card-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 20px !important;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  color: #222222;
+
+}
+
+.input-box {
+  background: #FFFFFF;
+  border: 1px solid #0A45C2;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+
+.btn {
+  height: 60px;
+  width: 100%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  background: #0A45C2;
+  border-radius: 4px;
+  align-items: center;
+  letter-spacing: 0.08em;
+  position: relative;
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #B6B6B6 !important;
+}
+
+.css-79elbk {
+  position: inherit !important;
+}

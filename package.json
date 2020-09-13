@@ -1,0 +1,58 @@
+{
+  "name": "google-contacts-client",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Meet Alodariya",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/lodash": "^4.14.161",
+    "@types/react-router-redux": "^5.0.18",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "jwt-decode": "^3.0.0-beta.2",
+    "lodash": "^4.17.20",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.1",
+    "react-https-redirect": "^1.1.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "serve": "^11.3.2",
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/redux-logger": "^3.0.8"
+  }
+}

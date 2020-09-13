@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url("../assets/fonts/Poppins-Regular.ttf") format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url("../assets/fonts/Poppins-Medium.ttf") format('woff');
+}
+
+.wrapper {
+  padding-top: 32px;
+  padding-right: 190px;
+  padding-bottom: 0px;
+  padding-left: 190px;
+}
+
+.bg-contacts {
+  background: #fafcfe url('../assets/images/bg-contacts-shapes.svg');
+  min-width: 100% !important;
+  min-height: 100% !important;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.contact-head {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  display: inline;
+  color: #053ED1;
+}
+
+.number-contacts {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline;
+  align-items: center;
+  letter-spacing: 0.08em;
+  margin-left: 10px;
+  color: #053ED1;
+}
+
+.preloader {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
