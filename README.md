@@ -5,6 +5,9 @@
 **This app is still under verification by google developers team**. And it usually takes about a week to get the verification.
 So, while on google consent screen whenever you see the prompt **"This app isn't verified"**, click on **advanced** and then **click "Go to Google Contacts OAuth (unsafe)"**
 
+Google OAuth requires the user to be redirected to OAuth2 consent screen for signing in to google account
+So, Signing in cant be possible with user's google account's credentials.
+
 # Getting Started
 
 Following instructions will help you to set up this project on your local
